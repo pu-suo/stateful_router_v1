@@ -1,0 +1,45 @@
+# Core Dependencies
+openai>=1.12.0
+anthropic>=0.18.0
+pydantic>=2.5.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+
+# Logging and Monitoring
+loguru>=0.7.2
+rich>=13.7.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.1
+
+# Utilities
+tenacity>=8.2.3  # For retries
+cachetools>=5.3.0  # For caching
+jsonschema>=4.19.0  # For JSON validation
+
+# ML/NLP Utilities
+tiktoken>=0.5.1  # For token counting
+sentence-transformers>=2.2.2  # For embeddings
+scikit-learn>=1.3.0  # For similarity calculations
+
+# Data Processing
+pandas>=2.0.0
+jsonlines>=4.0.0
+
+# API and Async
+aiohttp>=3.9.0
+asyncio>=3.4.3
+httpx>=0.25.0
+
+# Configuration
+pyyaml>=6.0.1
+python-json-logger>=2.0.7
+
+# Optional: For training
+# transformers>=4.36.0
+# torch>=2.1.0
+# datasets>=2.14.0
+# accelerate>=0.24.0
